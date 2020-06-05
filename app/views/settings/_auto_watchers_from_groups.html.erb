@@ -1,6 +1,6 @@
 <%-
 groups = Group.all.sort
-selected = @settings['groups_enabled'].collect(&:to_i) unless @settings['groups_enabled'].blank?
+selected = [@settings['groups_enabled']].collect unless @settings['groups_enabled'].blank?
 selected ||= []
 -%>
 
