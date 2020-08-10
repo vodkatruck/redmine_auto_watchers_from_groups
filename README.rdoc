@@ -3,3 +3,13 @@
 Add functionality to automatic add all members of group when issue(s) assigned to this group
 
 Groups affected this automatic watching could be specified on plugin settings page
+
+Installation - sample installation
+  "Installing a plugin
+  1. Copy your plugin directory into #{RAILS_ROOT}/plugins. If you are downloading the plugin directly from GitHub, you can do so by changing into your plugin directory   and issuing a command like git clone git://github.com/user_name/name_of_the_plugin.git.
+  2. If the plugin requires a migration, run the following command in #{RAILS_ROOT} to upgrade your database (make a db backup before).
+  bundle exec rake redmine:plugins:migrate RAILS_ENV=production
+  3. Restart Redmine
+  You should now be able to see the plugin list in Administration -> Plugins and configure the newly installed plugin (if the plugin requires to be configured)."
+  
+  Based on https://github.com/akuznecov/redmine_auto_watchers_from_groups , authored by https://github.com/akuznecov .
