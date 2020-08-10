@@ -12,4 +12,4 @@ Installation - sample installation
   3. Restart Redmine
   You should now be able to see the plugin list in Administration -> Plugins and configure the newly installed plugin (if the plugin requires to be configured)."
   
-  Based on https://github.com/akuznecov/redmine_auto_watchers_from_groups , authored by https://github.com/akuznecov .
+Based on https://github.com/akuznecov/redmine_auto_watchers_from_groups , authored by https://github.com/akuznecov .
